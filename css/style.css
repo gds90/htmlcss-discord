@@ -24,6 +24,7 @@ header {
 p {
     line-height: 1.5;
 }
+
 /* footer  */
 footer {
     background-color: rgb(27, 25, 25);
@@ -44,11 +45,12 @@ footer {
 
 /* containter */
 .container{
-    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.containter-bg {
-    margin: 20px 100px;
+.container-header {
+    width: 80%;
 }
 
 /* layout */
@@ -214,12 +216,18 @@ button {
 }
 
 .gray-wave {
-    filter: invert(0.96);
-}
+    background-image: url(../img/wave.svg);
+    height: 60px;
+    opacity: 0.03;}
+
 
 .white-wave {
-    filter: invert(1);
+    background-image: url(../img/wave.svg);
+    height: 60px;
+    transform: rotate(180deg);
+    opacity: 0.03;
 }
+    
 
 .socialnetwork {
     color: white;
@@ -236,3 +244,5 @@ button {
     height: 20px;
     margin-right: 5px;
 }
+
+
