@@ -14,6 +14,10 @@ header {
 #logo {
 
 }
+
+p {
+    line-height: 1.5;
+}
 /* footer  */
 footer {
     background-color: rgb(27, 25, 25);
@@ -42,15 +46,15 @@ footer {
 
 /* containter */
 .container-1 {
-    max-width: 1200px;
+    width: 100%;
 }
 
 .container-2 {
-    max-width: 991px;
+    width: 100%;
 }
 
 .container-3 {
-    max-width: 1200px;
+    width: 100%px;
     height: 400px;
 }
 
@@ -151,7 +155,7 @@ li {
     padding:5px;
 }
 .padding-10 {
-    padding:10px;
+    padding:10px 0;
 }
 
 .padding-40 {
@@ -201,8 +205,15 @@ button {
     font-size: 20px;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
 
 .content {
-    text-align: center;
     font-size: large;
 }
