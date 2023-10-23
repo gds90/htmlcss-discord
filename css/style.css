@@ -12,14 +12,8 @@ header {
     height: 75px;
 }
 
-.stars {
-    background-image: url(../img/stars.svg);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px;
-    margin: 10px auto;
-}
+
+
 
 p {
     line-height: 1.5;
@@ -43,9 +37,9 @@ footer {
     padding: 20px 0;
 }
 
-/* containter */
+/* container */
 .container{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -210,6 +204,15 @@ button {
     font-weight: 1000;
 }
 
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
 
 .content {
     font-size: large;
@@ -221,7 +224,7 @@ button {
     opacity: 0.03;}
 
 
-.white-wave {
+.gray-wave-180 {
     background-image: url(../img/wave.svg);
     height: 60px;
     transform: rotate(180deg);
