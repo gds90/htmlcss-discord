@@ -12,7 +12,7 @@ header {
     height: 75px;
 }
 
-h2 {
+.stars {
     background-image: url(../img/stars.svg);
     background-size:contain;
     background-repeat: no-repeat;
@@ -27,7 +27,8 @@ p {
 /* footer  */
 footer {
     background-color: rgb(27, 25, 25);
-    padding: 10px 0;
+    padding: 40px 200px;
+
 }
 
 .footer-top {
@@ -37,17 +38,8 @@ footer {
 
 .footer-bottom {
     width: 100%;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid rgb(116,140,217);
     padding: 20px 0;
-}
-
-/* bordi dashed */
-.db-black{
-    border: 1px dashed black;
-}
-.db-white{
-    border: 1px dashed white;
 }
 
 /* containter */
@@ -55,8 +47,8 @@ footer {
     width: 100%;
 }
 
-.containter-5 {
-    padding: 20px 0;
+.containter-bg {
+    margin: 20px 100px;
 }
 
 /* layout */
@@ -106,10 +98,6 @@ footer {
     background-size:cover;
 }
 
-.bg-wave {
-    background-image: url(../img/wave.svg);
-}
-
 .bg-white {
     background-color: white;
 }
@@ -126,27 +114,19 @@ footer {
     background-color: rgb(116,140,217)
 }
 
-.bg-lightblue {
-    background-color: lightblue;
-}
-
-.bg-tiffany {
-    background-color: rgb(33, 209, 209);
-}
-
-.bg-aquamarine{
-    background-color: aquamarine;
-}
-
 /* lista  */
-ul {
+#menu {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
 
 li {
-    margin: 0 5px;
+    margin: 10px 5px;
+}
+
+ul {
+    list-style: none;
 }
 
 /* COMMON STYLE*/
@@ -197,6 +177,10 @@ li {
     color:rgb(35,39,42);
 }
 
+.text-discord-color {
+   color: rgb(116,140,217)
+}
+
 button {
     padding: 15px 20px;
     border-radius: 30px;
@@ -220,7 +204,35 @@ button {
     text-align: left;
 }
 
+.text-bold {
+    font-weight: 1000;
+}
+
 
 .content {
     font-size: large;
+}
+
+.gray-wave {
+    filter: invert(0.96);
+}
+
+.white-wave {
+    filter: invert(1);
+}
+
+.socialnetwork {
+    color: white;
+    text-decoration: none;
+}
+
+.fa {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#ita-flag {
+    height: 20px;
+    margin-right: 5px;
 }

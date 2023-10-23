@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Discord</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
                     </div>
                 </div>
                 <div class="col-50 height-50 text-white">
-                    <ul>
+                    <ul id="menu">
                         <li>Scarica</li>
                         <li>Perch&egrave; Discord</li>
                         <li>Nitro</li>
@@ -73,7 +74,9 @@
         </div>
         <!-- Sezione canali vocali -->
         <div>
-            <img class="" src="./img/wave.svg" alt="sfondo wave">
+            <div>
+            <img src="./img/wave.svg" class="gray-wave" alt="sfondo wave">
+            </div>
             <div class="container margin-container bg-light-gray padding-40">
                 <div class="row">
                     <div class="col-40 text-black">
@@ -94,6 +97,9 @@
         </div>
         <!-- Sezione community -->
         <div>
+            <div class="bg-light-gray">
+            <img src="./img/wave.svg" class="white-wave" alt="sfondo wave">
+            </div>
             <div class="container padding-40 margin-container">
                 <div class="row">
                     <div class="col-60">
@@ -113,18 +119,21 @@
             </div>
         </div>
         <!-- Sezione streaming -->
+        <div>
+            <img src="./img/wave.svg" class="gray-wave" alt="sfondo wave">
+        </div>
         <div class="bg-light-gray">
-            <div class="container margin-container bg-light-gray">
+            <div class="container padding-40 margin-container bg-light-gray">
                 <div class="row">
                     <div class="col-100">
-                        <div class="content text-align-center padding-40 text-black">
+                        <div class="content text-align-center text-black">
                             <h1>Tecnologia affidabile per tenersi in contatto</h1>
                             <p class="padding-10">
                                Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda <br>gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
                             </p>
                             <img src="img/item4-big.svg" alt="Video Streaming">
                             <div>
-                                <h2>Pronto a iniziare la tua avventura?</h2>
+                                <h2 class="stars">Pronto a iniziare la tua avventura?</h2>
                                 <button class="text-white bg-discord-color font-size15">&#11015; Scarica per Mac</button>
                             </div>
                         </div>
@@ -134,24 +143,86 @@
         </div>
     </main>
     <!-- footer  -->
-    <footer>
+    <footer class="bg-gray">
         <div class="footer-top">
-            <div class="container-3 margin-container margin-container">
+            <div class="container margin-container">
                 <div class="row">
-                    <div class="col-40 db-black bg-pink"></div>
-                    <div class="col-15 db-white bg-tiffany"></div>
-                    <div class="col-15 db-white bg-tiffany"></div>
-                    <div class="col-15 db-white bg-tiffany"></div>
-                    <div class="col-15 db-white bg-tiffany"></div>
+                    <div class="col-40">
+                        <h2 class="text-discord-color">
+                            Il tuo posto per <br>parlare
+                        </h2>
+                        <div class="container margin-top-20">
+                            <div class="row">
+                            <img src="img/ita.png" id="ita-flag" alt="Lingua italiana">
+                            <span class="text-white">Italiano &#8711</span>
+                            </div>
+                        </div>
+                        <div class="margin-top-20">
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                        </div>
+                    </div>
+                    <div class="col-15 text-white">
+                        <ul>
+                            <li class="text-discord-color text-bold">Prodotto</li>
+                            <li>Scarica</li>
+                            <li>Perch&egrave; Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                        </ul>
+                    </div>
+                    <div class="col-15 text-white">
+                        <ul>
+                            <li class="text-discord-color text-bold">Compagnia</li>
+                            <li>Chi siamo</li>
+                            <li>Lavora con noi</li>
+                            <li>Marchio</li>
+                            <li>Redazione</li>
+                            <li>Negozio</li>
+                        </ul>
+                    </div>
+                    <div class="col-15 text-white">
+                        <ul>
+                            <li class="text-discord-color text-bold">Risorse</li>
+                            <li>Scarica</li>
+                            <li>Perch&egrave; Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                            <li>Scarica</li>
+                            <li>Perch&egrave; Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                        </ul>             
+                    </div>
+                    <div class="col-15 text-white">
+                        <ul>
+                            <li class="text-discord-color text-bold">Norme</li>
+                            <li>Scarica</li>
+                            <li>Perch&egrave; Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="container-1 bg-aquamarine margin-container">
-                <div class="containter-5">
+            <div class="container-bg margin-container">
+                <div class="container">
                     <div class="row justify-content-sb">
-                        <div class="db-black padding-5 bg-pink">Logo</div>
-                        <div class="db-black padding-5 bg-pink">Bottone</div>
+                        <div class="db-black padding-5">
+                            <span id="logo">
+                                <img src="./img/logo.svg" alt="Logo Discord">
+                            </span>
+                        </div>
+                        <div class="db-black padding-5 bg-pink">
+                            <button class="text-white bg-discord-color font-size15"> Registrati</button>
+                        </div>
                     </div>
                 </div>
             </div>
