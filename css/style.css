@@ -45,17 +45,8 @@ footer {
 }
 
 /* containter */
-.container-1 {
+.container{
     width: 100%;
-}
-
-.container-2 {
-    width: 100%;
-}
-
-.container-3 {
-    width: 100%px;
-    height: 400px;
 }
 
 .container-4 {
@@ -115,12 +106,20 @@ footer {
     background-size:cover;
 }
 
+.bg-wave {
+    background-image: url(../img/wave.svg);
+}
+
 .bg-white {
     background-color: white;
 }
 
 .bg-grey {
     background-color: rgb(35,39,42);
+}
+
+.bg-light-gray {
+    background-color: rgb(246,246,246);
 }
 
 .bg-pink {
@@ -137,6 +136,10 @@ footer {
 
 .bg-aquamarine{
     background-color: aquamarine;
+}
+
+.filter-gray {
+    filter: rgb(246,246,246);
 }
 
 /* lista  */
@@ -174,6 +177,10 @@ li {
     justify-content: space-between;
 }
 
+.justify-content-sa {
+    justify-content: space-around;
+}
+
 .height-50 {
     height: 50px;
 }
@@ -188,6 +195,10 @@ li {
 
 .text-white {
     color: white;
+}
+
+.text-black {
+    color:rgb(35,39,42);
 }
 
 button {
