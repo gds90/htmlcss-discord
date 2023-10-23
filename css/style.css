@@ -182,6 +182,7 @@ button {
     border-radius: 30px;
     margin: 0 10px;
     border: none;
+    height: 50px;
 }
 
 .font-size15 {
