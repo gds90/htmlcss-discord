@@ -7,11 +7,13 @@
 
 /* header  */
 header {
-    background-color: lightskyblue;
+    background-color: rgb(42,94,232);
     padding: 10px auto;
     height: 75px;
 }
+#logo {
 
+}
 /* footer  */
 footer {
     background-color: rgb(27, 25, 25);
@@ -45,8 +47,6 @@ footer {
 
 .container-2 {
     max-width: 991px;
-    height: 300px;
-    background-color: palevioletred;
 }
 
 .container-3 {
@@ -103,23 +103,20 @@ footer {
 }
 
 /* background */
-.bg-orange {
-    background-color: orange;
-}
 
-.bg-blue {
+
+.bg-jumbo {
     width: 100%;
-    background-color: rgb(17, 17, 106);
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
 }
 
 .bg-white {
-    width: 100%;
     background-color: white;
 }
 
 .bg-grey {
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.4);
+    background-color: rgb(35,39,42);
 }
 
 .bg-pink {
@@ -142,14 +139,14 @@ footer {
 ul {
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 li {
     margin: 0 5px;
 }
 
-/* padding */
+/* COMMON STYLE*/
 .padding-5 {
     padding:5px;
 }
@@ -165,6 +162,10 @@ li {
     padding-left: 150px;
 }
 
+.padding-bottom {
+    padding-bottom: 100px;
+}
+
 .justify-content-sb {
     justify-content: space-between;
 }
@@ -175,4 +176,33 @@ li {
 
 .margin-container {
     margin: 0 auto;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+button {
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    border: none;
+}
+
+.font-size15 {
+    font-size: 15px;
+}
+
+.font-size20 {
+    font-size: 20px;
+}
+
+
+.content {
+    text-align: center;
+    font-size: large;
 }
