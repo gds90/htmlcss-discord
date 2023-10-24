@@ -12,9 +12,6 @@ header {
     height: 75px;
 }
 
-
-
-
 p {
     line-height: 1.5;
 }
@@ -23,7 +20,6 @@ p {
 footer {
     background-color: rgb(27, 25, 25);
     padding: 40px 200px;
-
 }
 
 .footer-top {
@@ -39,12 +35,13 @@ footer {
 
 /* container */
 .container{
-    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-header {
-    width: 80%;
+    max-width: 991px;
+    margin: 0 auto;
 }
 
 /* layout */
@@ -108,6 +105,28 @@ footer {
 
 .bg-discord-color {
     background-color: rgb(116,140,217)
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.gray-wave {
+    background-image: url(../img/wave.svg);
+    height: 60px;
+    opacity: 0.03;
+}
+
+.gray-wave-180 {
+    background-image: url(../img/wave.svg);
+    height: 60px;
+    transform: rotate(180deg);
+    opacity: 0.03;
 }
 
 /* lista  */
@@ -185,6 +204,11 @@ button {
     height: 50px;
 }
 
+button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
 .font-size15 {
     font-size: 15px;
 }
@@ -205,33 +229,9 @@ button {
     font-weight: 1000;
 }
 
-.stars {
-    background-image: url(../img/stars.svg);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px;
-    margin: 10px auto;
-}
-
-
 .content {
     font-size: large;
-}
-
-.gray-wave {
-    background-image: url(../img/wave.svg);
-    height: 60px;
-    opacity: 0.03;}
-
-
-.gray-wave-180 {
-    background-image: url(../img/wave.svg);
-    height: 60px;
-    transform: rotate(180deg);
-    opacity: 0.03;
-}
-    
+}   
 
 .socialnetwork {
     color: white;
